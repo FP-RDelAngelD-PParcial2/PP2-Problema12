@@ -31,9 +31,10 @@ public class PP2Problema12 {
         double promedio;
         promedio=0;
             for(int i=0; i<n.length; i++){ //aumenta 1 cada vez
-            if(i%2==0){
-                promedio=promedio+n[i];
+               if(i%2==0){
+                promedio=promedio+n[i]; //0+(n[0] + n[2] + n[4] + n[6] + n[8])
             }
         }
+            System.out.print("La media de los valores " + n[0] + "," + n[2] + "," + n[4] + "," + n[6] + "," + n[8] + " es: " + promedio/5);
         }
 }
