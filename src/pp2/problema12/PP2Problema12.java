@@ -19,10 +19,9 @@ public class PP2Problema12 {
         mostrarVector(llenarVector(numeros));
     }
         public static int [] llenarVector(int []n){//Metodo de llenar el vector, recibe un arreglo de enteros, regresa un arreglo de enteros
-        Scanner entradaEscaner = new Scanner(System.in);
-        
+        Scanner entradaEscaner = new Scanner(System.in);       
         for (int i = 0; i<n.length; i++){
-            System.out.print("Introduce un número para la posición [" + i + "]"); //i inidica la posición
+            System.out.print("Introduce un número para la posición [" + i + "]"); //i indica la posición
             n[i]=entradaEscaner.nextInt();
         }
         return n;
@@ -35,6 +34,7 @@ public class PP2Problema12 {
                 promedio=promedio+n[i]; //0+(n[0] + n[2] + n[4] + n[6] + n[8])
             }
         }
-            System.out.print("La media de los valores " + n[0] + "," + n[2] + "," + n[4] + "," + n[6] + "," + n[8] + " es: " + promedio/5);
+            System.out.print("La media de los valores " + n[0] + "," + n[2] 
+                    + "," + n[4] + "," + n[6] + "," + n[8] + " es: " + promedio/5);
         }
 }
