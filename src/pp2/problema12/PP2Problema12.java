@@ -15,7 +15,7 @@ public class PP2Problema12 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[]numeros = new int[9];
+        int[]numeros = new int[10];
         mostrarVector(llenarVector(numeros));
     }
         public static int [] llenarVector(int []n){//Metodo de llenar el vector, recibe un arreglo de enteros, regresa un arreglo de enteros
