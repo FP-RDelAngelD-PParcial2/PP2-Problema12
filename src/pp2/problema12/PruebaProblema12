@@ -1,0 +1,12 @@
+run:
+Introduce un número para la posición [0]5
+Introduce un número para la posición [1]6
+Introduce un número para la posición [2]9
+Introduce un número para la posición [3]8
+Introduce un número para la posición [4]4
+Introduce un número para la posición [5]2
+Introduce un número para la posición [6]3
+Introduce un número para la posición [7]5
+Introduce un número para la posición [8]4
+Introduce un número para la posición [9]5
+La media de los valores 5,9,4,3,4 es: 5.0BUILD SUCCESSFUL (total time: 9 seconds)
